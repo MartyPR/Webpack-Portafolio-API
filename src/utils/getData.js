@@ -1,5 +1,5 @@
 const API = process.env.API;
-
+//PI = https://randomuser.me/api/
 const getData = async (id) => {
   const apiURl = id ? `${API}${id}` : API;
   try {
